@@ -142,7 +142,7 @@ input, select, textarea {
 		letter-spacing: 0.125em;
 		line-height: 1.75em;
 		margin-bottom: 1em;
-		text-transform: uppercase;
+		/* text-transform: uppercase; */
 		text-align: center;
 	}
 
@@ -195,19 +195,19 @@ input, select, textarea {
 			width: 38.25em;
 		}
 
-		@media screen and (max-width: 1280px) {
+		/* @media screen and (max-width: 1280px) {
 
 			.container {
-				width: 48em;
+				width: 51em;
 			}
 
 				.container.medium {
 					width: 36em;
 				}
 
-		}
+		} */
 
-		@media screen and (max-width: 980px) {
+		/* @media screen and (max-width: 980px) {
 
 			.container {
 				width: 95%;
@@ -217,12 +217,12 @@ input, select, textarea {
 					width: 71.25%;
 				}
 
-		}
+		} */
 
 		@media screen and (max-width: 840px) {
 
 			.container {
-				width: 95% !important;
+				width: 90% !important;
 			}
 
 		}
@@ -230,7 +230,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.container {
-				width: 90% !important;
+				width: 95% !important;
 			}
 
 		}
@@ -2597,7 +2597,7 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #ffffff;
+		background: #e0e0e0;
 		border: solid 1px rgba(224, 224, 224, 0.75);
 		margin-bottom: 6em;
 		padding: 3.5em;
@@ -2613,7 +2613,7 @@ input, select, textarea {
 
 	.feature {
 		position: relative;
-		height: 20em;
+		height: 50em;
 	}
 
 		.feature:after {
@@ -2628,10 +2628,12 @@ input, select, textarea {
 
 		.feature .image {
 			display: inline-block;
-			height: 100%;
+			/* height: 100%; */
 			overflow: hidden;
 			position: relative;
 			width: 50%;
+			padding-right: 50px;
+			padding-left: 50px;
 		}
 
 			.feature .image img {
@@ -2652,7 +2654,7 @@ input, select, textarea {
 		.feature .content {
 			display: inline-block;
 			padding: 3.5em;
-			vertical-align: middle;
+			vertical-align: top;
 			width: 48%;
 		}
 
@@ -3011,7 +3013,7 @@ input, select, textarea {
 		/* Feature */
 
 			.feature {
-				height: 18em;
+				height: 50em;
 			}
 
 				.feature .content {
@@ -3160,8 +3162,9 @@ input, select, textarea {
 
 				.feature .image {
 					float: none;
-					height: 15em;
+					/* height: 15em; */
 					width: 100%;
+					padding: 10%;
 				}
 
 				.feature .content {
