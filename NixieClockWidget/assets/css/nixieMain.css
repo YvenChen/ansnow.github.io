@@ -59,7 +59,8 @@ body,
 .footer {
   position: absolute;
   bottom: 0;
-  font-size: 12px
+  font-size: 12px;
+  margin-left: 10px;
 }
 
 .lang-area a,.link-area a {
@@ -80,11 +81,7 @@ body,
 }
 
 .link-area {
-  margin-top:26px
-}
-
-.twitter {
-  width: 20px;
+  margin-top: 26px;
 }
 
 .copyright {
