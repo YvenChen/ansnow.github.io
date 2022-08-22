@@ -105,13 +105,37 @@ video {
   .presentationIamge2 {
     width: 30%;
   }
+
+  .name,
+  .slogan {
+    font-size: small;
+  }
+  .download {
+    font-size: 30px;
+  }
+  .downloadImage {
+    width: 80px;
+  }
 }
 
 @media (max-width:480px ) {
   .presentationIamge1 {
-    width: 50%;
+    width: 40%;
+    padding: 10px;
+    margin-top: 0px;
   }
   .presentationIamge2 {
     display: none;
+  }
+
+  .name,
+  .slogan {
+    font-size: small;
+  }
+  .download {
+    font-size: 30px;
+  }
+  .downloadImage {
+    width: 80px;
   }
 }
