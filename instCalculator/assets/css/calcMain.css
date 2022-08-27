@@ -11,61 +11,38 @@ body {
     Arial,
     sans-serif;
   color: black;
+  background-color: #F5F5F7;
 }
 
-.section {
-  padding: 40px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.NixieClockWidget-Section {
-  color: white; 
-  background-color: black;
-}
-
-.sectionContent {
-  display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.item {
-  flex: 0 1 300px;
-  margin-inline: 80px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+.banner {
   text-align: center;
 }
 
-.nixieItem {
-  margin-inline: -50px;
+.titleArea {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: white;
 }
 
-.textContent {
+.mainContent {
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: white;
 }
 
 .titleText {
-  font-size: xx-large;
-  font-weight: bold;
+  font-size:70px;
 }
 
-.title2Text {
+.descriptionText {
   font-size: x-large;
-  font-weight: bold;
 }
 
 .promotionText {
   color: rgb(230, 119, 0);
-}
-
-.descriptionText {
-  font-size: large;
-}
-
-.link {
-  cursor: pointer;
 }
 
 .button {
@@ -89,9 +66,41 @@ body {
   text-decoration: none;
 }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+hr {
+  width: 60%;
+  margin: 0 auto;
+  border: 0;
+  height: 0;
+  border-bottom: 1px solid gray;
+}
+
+.tableText {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-inline: 20%;
+}
+
+.presentImage {
+  width: 1200px;
+}
+
+.compareImage {
+  width: 300px;
+}
+
 .footer {
   position: relative;
-  /* bottom: 0; */
   font-size: 12px;
   margin-left: 10px;
 }
@@ -126,4 +135,38 @@ body {
   position: absolute;
   top: -9999px;
   left: -9999px;
+}
+
+@media (max-width:1200px ) {
+  .presentImage {
+    width: 100%;
+  }
+}
+
+@media (max-width:700px ) {
+  .titleArea {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+  }
+
+  .titleText {
+    font-size: xx-large;
+  }
+
+  .descriptionText {
+    font-size: large;
+  }
+
+  hr {
+    width: 100%;
+  }
+
+  .presentImage {
+    width: 100%;
+  }
+
+  .compareImage {
+    width: 90%;
+  }
 }
